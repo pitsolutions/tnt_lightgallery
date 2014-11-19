@@ -1,0 +1,14 @@
+
+<f:layout name="Default" />
+<f:section name="main">
+    <div class="img-holder">
+        <a href="javascript:void(0);" class="dynamic" id="imageLink-{configData.contentId}">
+            <f:for each="{collections}" as="collection" iteration="itemIteration">
+                <f:if condition="{itemIteration.isFirst}">
+                    <f:image src="{collection.src}" width="330" height="220" alt="My Image" />
+                </f:if>
+            </f:for>
+        </a>
+    </div>
+    <h3> <a class="dynamic" href="javascript:void(0)" id="link-{configData.contentId}">{configData.galleryHeaderLabel}</a> </h3>
+</f:section>
