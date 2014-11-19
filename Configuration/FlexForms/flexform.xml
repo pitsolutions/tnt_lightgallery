@@ -43,7 +43,7 @@
                                     <config>
                                         <appearance>
                                             <elementBrowserType>file</elementBrowserType>
-                                            <elementBrowserAllowed></elementBrowserAllowed>
+                                            <elementBrowserAllowed>gif,jpg,jpeg,tif,tiff,bmp,pcx,tga,png</elementBrowserAllowed>
                                             <collapseAll>true</collapseAll>
                                         </appearance>
                                     </config>
