@@ -43,7 +43,7 @@
                                     <config>
                                         <appearance>
                                             <elementBrowserType>file</elementBrowserType>
-                                            <elementBrowserAllowed>gif,jpg,jpeg,tif,tiff,bmp,pcx,tga,png</elementBrowserAllowed>
+                                            <elementBrowserAllowed>gif,jpg,jpeg,tif,tiff,bmp,tga,png</elementBrowserAllowed>
                                             <collapseAll>true</collapseAll>
                                         </appearance>
                                     </config>
@@ -52,7 +52,6 @@
                                     <fieldname>flex_files</fieldname>
                                 </foreign_match_fields>
                                 <appearance type="array">
-                                    <newRecordLinkAddTitle>1</newRecordLinkAddTitle>
                                     <headerThumbnail>
                                         <field>uid_local</field>
                                         <height>64</height>

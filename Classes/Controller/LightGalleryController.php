@@ -61,7 +61,7 @@ class LightGalleryController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCon
         //load essential js files
         //check to load the jquery lib from extention
         if ($this->settings['isExtJquery']) {
-            $GLOBALS['TSFE']->getPageRenderer()->addJsFooterFile($this->resourceFolders . 'Js/jquery-1.11.1.min.js', NULL, FALSE, FALSE, '', TRUE);
+            $GLOBALS['TSFE']->getPageRenderer()->addJsFile($this->resourceFolders . 'Js/jquery-1.11.1.min.js', NULL, FALSE, FALSE, '', TRUE);
         }
         $GLOBALS['TSFE']->getPageRenderer()->addJsFooterFile($this->resourceFolders . 'Js/lightGallery.js', NULL, FALSE, FALSE, '', TRUE);
         $GLOBALS['TSFE']->getPageRenderer()->addJsFooterFile($this->resourceFolders . 'Js/Custom.js', NULL, FALSE, FALSE, '', TRUE);
